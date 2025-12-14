@@ -1,8 +1,11 @@
 ## INSTALL DEPENDENCIES
 
-Run the following command to install required packages:
+Run the following commands to install required packages:
 
-pip install -r requirements.txt
+pip install torch (version 2.0.0 or greater)
+pip install torchvision (version 0.15.0 or greater)
+pip install numpy (version 1.23 or greater)
+pip install matplotlib (version 3.7 or greater)
 
 The required datasets (MNIST and CIFAR-10) are automatically downloaded to ./data/ on first run.
 
